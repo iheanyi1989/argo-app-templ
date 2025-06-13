@@ -1,2 +1,11 @@
+## Replicas to 3 for dev
+replicaCount: 3
+
+## Publishing on NodePort for dev
+service:
+  type: NodePort
+  port: 30288
+
+## dev Specific Config
 appconfig: |
   {"spec":{"stage":"dev"}}
