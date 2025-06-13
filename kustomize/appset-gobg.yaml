@@ -18,7 +18,7 @@ spec:
     spec:
       project: default
       sources:
-        - repoURL: https://github.com/<repo>
+        - repoURL: https://github.com/iheanyi1989/argo-app-templ
           targetRevision: main
           path: 'kustomize/env/overlays/{{.environment}}'
       destination:

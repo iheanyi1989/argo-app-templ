@@ -6,7 +6,7 @@ metadata:
 spec:
   project: endor
   source:
-    repoURL: https://github.com/<repo>
+    repoURL: https://github.com/iheanyi1989/argo-app-templ
     targetRevision: main
     path: impersonation/manifests/
   destination:
